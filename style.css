@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaeaea; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.shadow{
+    box-shadow: 2px 1px 7px 0px #888888;
+    border-radius: 20px;
+    background-color: black;
+    height: 234px;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+.map-part {
+    fill: url(#gradientMap);
+    stroke: #1e90ff;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); 
+}
+
+.dotted-path {
+    stroke: #ff6347; 
+    stroke-width: 2;
+    stroke-dasharray: 5 5;
+}
+
+/* Pin shape with a gradient */
+.pin-shape {
+    fill: url(#gradientPin);
+    stroke: #e17055;
+    stroke-width: 2;
+}
+
+.pin-center {
+    fill: #fff;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+
